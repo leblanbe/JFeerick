@@ -8,11 +8,13 @@ function Contact() {
     <>
       <section className="section contact-background">
           <div className="firsthalf">
+            <div className="firsthalfcentered">
             <h1 className="text-big">Contact Me</h1>
             <p className="text-small">Hey there! Feel free to reach out if you have any questions about my experience or research. My preferred contact method is email.</p>
             <p className="text-small">
               Email: jean.feerick@gmail.com<br />
             </p>
+            </div>
           </div>
           <div className="secondhalf">
             <div className="contact-box">

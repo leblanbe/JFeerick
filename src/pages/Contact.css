@@ -13,8 +13,13 @@
     justify-content: center;  /* centers the contact box */
     align-items: center;
 }
+.firsthalfcentered {
+    text-align: center;
+    width:80%;
+}
 
 .contact-box {
+    margin-right:20px;
     padding: 40px;
     width: 100%;
     max-width: 400px;
