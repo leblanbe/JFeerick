@@ -33,7 +33,7 @@ function Home() {
       </section>
       <section className="center-text">
       <div>
-        <h1 className="about-title">About Dr.Jean Feerick</h1>
+        <h1 className="about-title">About Dr. Jean Feerick</h1>
         <p className="about-subtitle">
           Scholar, Professor, and Passionate Advocate for the Bard
         </p>
