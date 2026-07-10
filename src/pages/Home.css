@@ -112,6 +112,31 @@
   background-color: var(--light-color);
 }
 
+.about-header {
+  display: grid;
+  grid-template-columns: minmax(110px, 170px) 1fr;
+  align-items: center;
+  width: min(100%, 900px);
+}
+
+.about-header-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-profile-img {
+  width: min(100%, 170px);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--primary-color);
+  box-shadow: 0 8px 24px rgba(75, 52, 34, 0.18);
+  justify-self: center;
+}
+
 .about-title {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(1.8rem, 3vw, 2.5rem);
@@ -180,6 +205,21 @@
 
   .katherine-img {
     width: min(100%, 22rem);
+  }
+}
+
+@media (max-width: 700px) {
+  .about-header {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .about-header-copy {
+    width: 100%;
+  }
+
+  .about-profile-img {
+    width: min(100%, 140px);
   }
 }
 

@@ -6,6 +6,7 @@ import './Home.css';
 import '../App.css';
 import '../components/Navbar.css';
 import PlayImage from '../assets/gentlekatherine.png';
+import ProfilePicture from '../assets/ProfilePicture.jpg';
 
 function Home() {
   return (
@@ -32,11 +33,14 @@ function Home() {
         </div>
       </section>
       <section className="center-text">
-      <div>
-        <h1 className="about-title">About Dr. Jean Feerick</h1>
-        <p className="about-subtitle">
-          Scholar, Professor, and Passionate Advocate for the Bard
-        </p>
+      <div className="about-header">
+        <img src={ProfilePicture} className="about-profile-img" alt="Dr. Jean Feerick" />
+        <div className="about-header-copy">
+          <h1 className="about-title">About Dr. Jean Feerick</h1>
+          <p className="about-subtitle">
+            Scholar, Professor, and Passionate Advocate for the Bard
+          </p>
+        </div>
       </div>
     </section>
 
