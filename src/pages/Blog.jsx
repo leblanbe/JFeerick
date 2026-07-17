@@ -175,7 +175,7 @@ function Blog({ loggedInUser }) {
         <h1 className="contact-title">Join the Conversation</h1>
         <p className="home-body white"> Whether you're a theater professional, literary scholar, student, or simply an admirer of Shakespeare's work, I'd love to hear from you. Reach out to discuss collaborations, inquiries, or share your own insights.</p>
         <div className="home-buttons">
-          <Link to="/contact" className="btn-contact">
+          <Link to="/contact" className="btn-msg">
               Contact Jean Feerick
           </Link>
         </div>

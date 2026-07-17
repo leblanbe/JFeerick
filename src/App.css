@@ -72,7 +72,7 @@
     justify-content: center;        /* vertical centering */
     align-items: center;            /* horizontal centering */
     text-align: center;             /* center text inside each element */
-    width: 95%;
+    width: 100vw;
     height:auto;
     gap: 10px;                      /* space between heading and paragraph */
     color: white;                   /* default text color */
