@@ -2,12 +2,11 @@
   position: relative; /* Needed to position the overlay */
   font-family: 'Crimson Text', serif;
   font-size: 1.1rem;
-  padding: 30px 30px;
   background-image: url('../assets/plantborder.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
