@@ -135,10 +135,10 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
   gap: 30px;
-  padding: 10px 20px;
   justify-content: stretch;
   padding-bottom: 80px;
   background-color: var(--light-color);
+  width: 100vw;
 }
 
 /* Each article card */

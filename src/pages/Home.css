@@ -110,7 +110,6 @@
   align-items: center;
   text-align: center;
   width: 100vw;
-  margin-left: calc(50% - 50vw);
   box-sizing: border-box;
   padding: clamp(32px, 5vw, 56px) 20px 0;
   background-color: var(--light-color);
